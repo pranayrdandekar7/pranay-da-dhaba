@@ -2,7 +2,7 @@ import "./Home.css"
 
 function Home() {
   return (
-    <div>Home</div>
+    <h1 className="heading">Welcome to Pranay Da Dhaba</h1>
   )
 }
 

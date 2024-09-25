@@ -1,0 +1,28 @@
+.logo{
+    height: 60px;
+    margin-left: 20px;
+}
+.navbar-container{
+ background-color: burlywood;
+ display: flex;
+ align-items: center;
+ padding: 8px;
+}
+.navbar-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: space-around;
+}
+.navbar-item{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar-item:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: red;
+}
