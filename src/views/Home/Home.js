@@ -10,7 +10,8 @@ function Home() {
     <Navabr/>
     <h1 className="heading">Welcome to Pranay Da Dhaba</h1>
       
-
+{
+  <div className="foodcard-container">
       {
           menuData.map((blogobj,i)=>{
 
@@ -20,6 +21,8 @@ function Home() {
 
           })
       }
+      </div>
+    }
 
     </>
   )

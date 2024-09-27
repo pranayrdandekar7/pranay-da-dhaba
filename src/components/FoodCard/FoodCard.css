@@ -1,12 +1,15 @@
 .footcard{
-    width: 280px;
-    /* border: 1px solid gray; */
+    width: 270px;
+    height: 350px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px 1px gray;
     margin: 10px;
     cursor: pointer;
     position: relative;
+}
+.foodcard:hover{
+    transform: translateX(10px) rotate(10deg) translateY(5px);
 }
     
 .foodcard-image{
@@ -16,6 +19,11 @@
     border-radius: 10px;
    
 }
+
+.foodcard-image:hover{
+    transition: 1s;
+    transform:scale(1.1)
+}
 .category-icon{
     height: 30px;
     position: absolute;
@@ -23,19 +31,23 @@
     top: 15px;
     background-color: white;
 }
-.foodcard-image:hover{
-    transition: 1s;
-    transform:scale(1.1)
-}
 .foodcard-title{
     font-size: 23px;
+    display: block;
     text-align: center;
+    font-weight: bold;
 }
 .footcard-description{
+    display: block;
+    margin-top: 5px;
     text-align: justify;
 }
 .foodcard-price{
+    display: block;
     font-size: 20px;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 25px;
     font-weight: bold;
 }
 .foodcard-btn{
@@ -47,6 +59,9 @@
     display: block;
     margin: 0 auto;
     cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    left:80px;
 }
 .foodcard-btn:hover{
     transition: 0.5s;
