@@ -5,6 +5,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Home from './views/Home/Home';
 import About from './views/About/About';
 import Navabr from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path:"/navbar",
     element: <Navabr/>
+  },
+  {
+    path:"/footer",
+    element:<Footer/>
   }
 ])
 root.render(<RouterProvider router={router} />);
