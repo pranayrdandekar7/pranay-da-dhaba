@@ -9,7 +9,8 @@
     position: relative;
 }
 .foodcard:hover{
-    transform: translateX(10px) rotate(10deg) translateY(5px);
+    transition: 0.3s;
+    transform: rotate(-1deg);
 }
     
 .foodcard-image{
@@ -65,5 +66,5 @@
 }
 .foodcard-btn:hover{
     transition: 0.5s;
-    background-color:rgb(179, 132, 70) ;
+    background-color:#b38446 ;
 }

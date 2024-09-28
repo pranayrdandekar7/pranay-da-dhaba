@@ -1,4 +1,19 @@
-const menuData = [
+
+const BRAND_NAME ="PRANAY DA DHABA" ; 
+
+const THEME_COLOR = {
+    primary :" #deb887",
+    secondery:"#f25f4c",
+    dark :"#b38446",
+    tertiary:"#e53170",
+
+} ;
+
+const BUTTON_TEXT = "ADD TO CART"
+
+
+
+const PRODUCTS = [
     {
         imgurl: "https://images.getrecipekit.com/20221111092337-paneer.jpg",
         title: "Masala Panir",
@@ -72,4 +87,4 @@ const menuData = [
     }
 ];
     
-export default menuData ;
+export { PRODUCTS ,BRAND_NAME ,THEME_COLOR ,BUTTON_TEXT};

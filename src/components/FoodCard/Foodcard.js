@@ -2,6 +2,7 @@ import React from 'react'
 import "./FoodCard.css";
 import veg from "./veg-icon.png" ;
 import nonveg from "./non-veg-icon.png"
+import { BUTTON_TEXT } from '../../configData/data';
 
 function Foodcard({imgurl,title,description,price,isVeg}) {
   return (
@@ -12,7 +13,7 @@ function Foodcard({imgurl,title,description,price,isVeg}) {
     <span className='foodcard-title'>{title}</span>
     <span className='footcard-description'>{description}</span>
     <span className='foodcard-price'>₹ {price}</span>
-    <button className='foodcard-btn'>Add To Cart</button>
+    <button className='foodcard-btn'>{BUTTON_TEXT}</button>
     </div>
     </>
   )

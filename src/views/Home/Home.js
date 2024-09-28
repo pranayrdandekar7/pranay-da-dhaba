@@ -1,6 +1,6 @@
 import Navabr from "../../components/Navbar/Navbar"
 import "./Home.css"
-import menuData from "./../../configData/data.js"
+import {PRODUCTS,BRAND_NAME,THEME_COLOR} from "./../../configData/data.js"
 import Foodcard from "../../components/FoodCard/Foodcard"
 
 
@@ -8,12 +8,12 @@ function Home() {
   return (
     <>
     <Navabr/>
-    <h1 className="heading">Welcome to Pranay Da Dhaba</h1>
+    <h1 className="heading " style={{color:THEME_COLOR.secondery}}>{BRAND_NAME}</h1>
       
 {
   <div className="foodcard-container">
       {
-          menuData.map((blogobj,i)=>{
+          PRODUCTS.map((blogobj,i)=>{
 
             const {imgurl,title,description,price,isVeg} =blogobj
 
