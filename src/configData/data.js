@@ -11,7 +11,26 @@ const THEME_COLOR = {
 
 const BUTTON_TEXT = "ADD TO CART"
 
+const SLIDER = [
+    {
+        imgUrl:"https://img.freepik.com/free-vector/flat-design-food-sale-banner_23-2149108165.jpg",
+        alt:" best offer image"
+    },
 
+    {
+        imgUrl:"https://img.freepik.com/premium-psd/horizontal-web-template-restaurant_120329-154.jpg",
+        alt:"weekend image"
+    },
+    {
+        imgUrl:"https://img.freepik.com/free-vector/flat-design-fast-food-sale-banner_23-2149165450.jpg",
+        alt:"big offer"
+    },
+    {
+        imgUrl:"https://img.freepik.com/premium-psd/horizontal-web-template-restaurant_120329-154.jpg",
+        alt:"weekend image"
+    },
+
+]
 
 const PRODUCTS = [
     {
@@ -87,4 +106,4 @@ const PRODUCTS = [
     }
 ];
     
-export { PRODUCTS ,BRAND_NAME ,THEME_COLOR ,BUTTON_TEXT};
+export { PRODUCTS ,BRAND_NAME ,THEME_COLOR ,BUTTON_TEXT,SLIDER};
