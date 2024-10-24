@@ -1,35 +1,54 @@
 
-const BRAND_NAME ="PRANAY DA DHABA" ; 
+const BRAND_NAME = "PRANAY DA DHABA";
 
 const THEME_COLOR = {
-    primary :" #deb887",
-    secondery:"#f25f4c",
-    dark :"#b38446",
-    tertiary:"#e53170",
+    primary: " #deb887",
+    secondery: "#f25f4c",
+    dark: "#b38446",
+    tertiary: "#e53170",
 
-} ;
+};
 
 const BUTTON_TEXT = "ADD TO CART"
 
 const SLIDER = [
     {
-        imgUrl:"https://img.freepik.com/free-vector/flat-design-food-sale-banner_23-2149108165.jpg",
-        alt:" best offer image"
+        imgUrl: "https://img.freepik.com/free-vector/flat-design-food-sale-banner_23-2149108165.jpg",
+        alt: " best offer image"
     },
 
     {
-        imgUrl:"https://img.freepik.com/premium-psd/horizontal-web-template-restaurant_120329-154.jpg",
-        alt:"weekend image"
+        imgUrl: "https://img.freepik.com/premium-psd/horizontal-web-template-restaurant_120329-154.jpg",
+        alt: "weekend image"
     },
     {
-        imgUrl:"https://img.freepik.com/free-vector/flat-design-fast-food-sale-banner_23-2149165450.jpg",
-        alt:"big offer"
+        imgUrl: "https://img.freepik.com/free-vector/flat-design-fast-food-sale-banner_23-2149165450.jpg",
+        alt: "big offer"
     },
     {
-        imgUrl:"https://img.freepik.com/premium-psd/horizontal-web-template-restaurant_120329-154.jpg",
-        alt:"weekend image"
+        imgUrl: "https://img.freepik.com/premium-psd/horizontal-web-template-restaurant_120329-154.jpg",
+        alt: "weekend image"
     },
 
+]
+
+const FOOTER_LINKS = [
+    {
+        imgUrl: "https://img.icons8.com/?size=100&id=35084&format=png&color=000000",
+        alt: "gmail-icon"
+    },
+    {
+        imgUrl: "https://img.icons8.com/?size=100&id=118497&format=png&color=000000",
+        alt: "facebook-icon"
+    },
+    {
+        imgUrl: "https://img.icons8.com/?size=100&id=16713&format=png&color=000000",
+        alt: "watsapp-icon"
+    },
+    {
+        imgUrl: "https://img.icons8.com/?size=100&id=dz63urxyxSdO&format=png&color=000000",
+        alt: "insta-icon"
+    }
 ]
 
 const PRODUCTS = [
@@ -105,5 +124,5 @@ const PRODUCTS = [
         isVeg: false
     }
 ];
-    
-export { PRODUCTS ,BRAND_NAME ,THEME_COLOR ,BUTTON_TEXT,SLIDER};
+
+export { PRODUCTS, BRAND_NAME, THEME_COLOR, BUTTON_TEXT, SLIDER ,FOOTER_LINKS};

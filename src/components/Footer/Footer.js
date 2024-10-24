@@ -2,10 +2,8 @@ import React from 'react'
 import logo from "./../Navbar/logo.png"
 import "./Footer.css"
 import { Link } from 'react-router-dom'
-import mail from "./FooterIcon/email.png"
-import facebook from "./FooterIcon/facebook.png"
-import watsapp from "./FooterIcon/whatsapp.png"
-import instagram from "./FooterIcon/instagram.png"
+
+import {FOOTER_LINKS} from "./../../configData/data.js"
 
 function Footer() {
     return (
@@ -31,10 +29,17 @@ function Footer() {
                     <span>404 , Samadhan complex , more layout ,<br/>
                      sadar , Nagpur 440100 </span>
                     <div className='footer-icon-container'>
-                        <img src={mail} className='footer-icon' />
+
+                  {FOOTER_LINKS.map((footerObj,i)=>{
+                const {imgUrl,alt} =footerObj
+                return <img src={imgUrl} className='footer-icon'/>
+
+
+                  })}
+                        {/* <img src={mail} className='footer-icon' />
                         <img src={facebook} className='footer-icon' />
                         <img src={watsapp} className='footer-icon' />
-                        <img src={instagram} className='footer-icon' />
+                        <img src={instagram} className='footer-icon' /> */}
                     </div>
                 </div>
             </div>
